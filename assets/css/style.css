@@ -1,0 +1,156 @@
+body {
+    background: url("../images/bg.jpg") repeat;
+    font-family: Verdana;
+    font-size: 14px;
+}
+header {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 4px 0px #929685;
+}
+#header-container {
+    width: 960px;
+    margin: 0 auto;
+}
+#name_block{
+    height: 40px;
+    background-color: #4fa9a4;
+    float: left;
+    padding: 20px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#name_block a {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none;
+}
+#menu_block {
+    float: right;
+    margin-top: 27px;
+}
+#menu_block ul li {
+    float: left;
+    padding: 0px 15px;
+}
+#menu_block ul li a {
+    color: #999999;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/******************         Body CSS *******************/
+#body_container {
+    width: 960px;
+    margin: 30px auto 0 auto;
+    height: 800px;
+}
+#container {
+    width: 610px;
+    float: left;
+    background-color: #ffffff;
+    padding: 20px 20px 10px 20px;
+}
+#container_content p {
+    padding-top: 10px;
+    color: #666666;
+    line-height: 22px;
+}
+#container h1 {
+    font-size: 22px;
+    color: #4fa9a4;
+    border-bottom: 2px solid #cccccc;
+    padding-bottom: 10px;
+}
+.left_float_img {
+    float: left;
+    padding: 10px 15px 5px 0px;
+}
+#sidebar{
+    width: 210px;
+    float: right;
+    padding: 20px 20px 10px 20px;
+    background-color: #ffffff;
+}
+#sidebar h2 {
+    color: #4fa9a4;
+    size: 16px;
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+}
+#side_content {
+    margin: 20px 0px;
+}
+.icon {
+    float: left;
+}
+.middle_icon {
+    margin: 0px 7px;
+}
+.middle-4{
+    margin:0px 21px;
+}
+/************************** portfolio CSS *****************/
+
+.portfolio-img{
+    float: left;
+}
+.middle-2{
+    margin: 0px 25px;
+}
+/************************** CONTACT CSS *****************/
+
+#form-warp{
+    width: 400px;
+    border: 0px solid #999999 ;
+    background-color: #ffffff;
+
+    float: left;
+    margin: 30px 0px 0px 0px;
+    padding: 20px 0px;
+}
+
+
+#form{
+    width: 100px;
+
+}
+.labelone{
+    display: block;
+    margin: 0px 10px 0px -3px;
+    float: left;
+    box-sizing: initial;
+}
+
+input{
+    width:100%;
+    margin: 10px 0px 5px 20px;
+}
+textarea{
+    width: 400px;
+    height: 200px;
+    margin: 5px 0px 5px 5px;
+}
+.btn{
+    width:90px;
+    background-color: #26a9a2;
+    margin: 8px 0px;
+    height: 30px;
+    color: #ffffff;
+}
+/******************         Footer CSS ******************/
+footer{
+    border-top: 5px solid #4fa9a4;
+    margin-top: 30px;
+    background-color: #666666;
+    height: 60px;
+}
+#footer_content {
+    color: #ffffff;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 12px;
+}
